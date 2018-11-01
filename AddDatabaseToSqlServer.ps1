@@ -54,6 +54,6 @@ Restore-SqlDatabase `
 	-ReplaceDatabase `
 	-ServerInstance . `
 	-Database "SampleDatabase" `
-	-BackupFile "$pwd\AdventureWorks2016.bak" `
+	-BackupFile "$pwd\AdventureWorksLT2008R2.bak" `
 	-RelocateFile $relocateFiles `
 	-Credential $credentials; 
